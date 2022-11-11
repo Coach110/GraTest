@@ -7,6 +7,7 @@ TagManager:
   - New tag
   - Platform
   - Wall
+  - Enemy1Glista
   layers:
   - Default
   - TransparentFX
@@ -17,9 +18,9 @@ TagManager:
   - Foreground
   - Midground
   - Background
-  - 
-  - 
-  - 
+  - Enemy
+  - Wall
+  - Player
   - 
   - 
   - 
