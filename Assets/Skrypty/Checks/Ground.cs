@@ -46,13 +46,16 @@ public class Ground : MonoBehaviour
         }
     }
 
+
+    public bool GetOnGround()
+    {
+        return onGround;
+        Debug.Log("grounded!");
+    }
+
     public float GetFriction()
     {
         return friction;
     }
 
-    public bool GetOnGround()
-    {
-        return onGround;
-    }
 }

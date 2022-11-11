@@ -77,6 +77,7 @@ public class Jump : MonoBehaviour
             {
                 jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0f) ;
             }
+            velocity.y +=jumpSpeed;
         }
         Debug.Log("Jump!");
 
