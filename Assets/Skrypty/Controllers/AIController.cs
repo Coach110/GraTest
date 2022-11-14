@@ -23,6 +23,6 @@ public class AIController : InputController
 
     public override bool RetreiveDashInput()
     {
-        return true;
+        return false;
     }
 }
