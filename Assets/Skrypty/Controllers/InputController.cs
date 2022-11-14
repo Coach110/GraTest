@@ -11,4 +11,6 @@ public abstract class InputController : ScriptableObject
     public abstract bool RetreiveJumpInput();
 
     public abstract bool RetreiveJumpHoldInput();
+
+    public abstract bool RetreiveDashInput();
 }
