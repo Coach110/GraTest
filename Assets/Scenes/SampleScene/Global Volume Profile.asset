@@ -30,13 +30,17 @@ MonoBehaviour:
     m_Value: 1
   focusDistance:
     m_OverrideState: 1
-    m_Value: 8.99
+    m_Value: 23.88
   aperture:
     m_OverrideState: 1
     m_Value: 6.6
   focalLength:
     m_OverrideState: 1
+<<<<<<< Updated upstream
     m_Value: 300
+=======
+    m_Value: 60
+>>>>>>> Stashed changes
   bladeCount:
     m_OverrideState: 1
     m_Value: 5
@@ -67,13 +71,41 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.59}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.294
   smoothness:
     m_OverrideState: 1
     m_Value: 1
   rounded:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
+--- !u!114 &-407789284659428173
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: -0.56
+  contrast:
+    m_OverrideState: 0
+    m_Value: 0
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 0.9
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,6 +122,48 @@ MonoBehaviour:
   - {fileID: 5827903520567637813}
   - {fileID: -7039295080964925455}
   - {fileID: -6904343523957391041}
+  - {fileID: -407789284659428173}
+  - {fileID: 1347624934398087772}
+--- !u!114 &1347624934398087772
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfbdbb87d3286943a057f7791b43141, type: 3}
+  m_Name: ChannelMixer
+  m_EditorClassIdentifier: 
+  active: 1
+  redOutRedIn:
+    m_OverrideState: 1
+    m_Value: 100
+  redOutGreenIn:
+    m_OverrideState: 1
+    m_Value: -102
+  redOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 112
+  greenOutRedIn:
+    m_OverrideState: 1
+    m_Value: 0
+  greenOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 114
+  greenOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 193
+  blueOutRedIn:
+    m_OverrideState: 1
+    m_Value: 155
+  blueOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 200
+  blueOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 200
 --- !u!114 &5827903520567637813
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -108,7 +182,7 @@ MonoBehaviour:
     m_Value: 0.46
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.3
   scatter:
     m_OverrideState: 1
     m_Value: 0.169
@@ -117,7 +191,11 @@ MonoBehaviour:
     m_Value: 65473.34
   tint:
     m_OverrideState: 1
+<<<<<<< Updated upstream
     m_Value: {r: 0, g: 1, b: 0.29078388, a: 1}
+=======
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> Stashed changes
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
@@ -125,9 +203,9 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 5
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 2800000, guid: 158d9c687149a0e499002e08c9420c70, type: 3}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2.76
