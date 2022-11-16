@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ScenaStartowa.unity
+    guid: 66c67f4a695704e4692605139332c3e0
+  - enabled: 1
+    path: Assets/Scenes/ScenaPol.unity
+    guid: 7037ddf350ae6c245bf2fa9277377d18
+  - enabled: 1
+    path: Assets/Scenes/ScenaPol2.unity
+    guid: 53869182588185f48b32c34dcacc27c7
+  - enabled: 1
+    path: Assets/Scenes/ScenaPol3.unity
+    guid: cf37ba788828c4a4f9893f598d953f31
   m_configObjects: {}
