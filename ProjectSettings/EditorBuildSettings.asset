@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScenaPol3.unity
     guid: cf37ba788828c4a4f9893f598d953f31
+  - enabled: 1
+    path: Assets/World/Scena1.unity
+    guid: 3b24e183ec7c8114db47b7262723cf13
+  - enabled: 1
+    path: Assets/World/scena2.unity
+    guid: e96ca869eb576ce4f8ec391b98253587
+  - enabled: 1
+    path: Assets/World/scena3.unity
+    guid: 52f926869b861294cb0df2ea38732c33
   m_configObjects: {}

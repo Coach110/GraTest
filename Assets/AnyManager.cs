@@ -8,13 +8,14 @@ public class AnyManager : MonoBehaviour
 {
     public static AnyManager anyManager;
     bool gameStart;
+    [SerializeField] int scenaStartowa = 1;
 
     private void Awake()
     {
         if (!gameStart)
         {
             anyManager = this;
-            SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync(scenaStartowa, LoadSceneMode.Additive);
             gameStart = true;
         }
     }
