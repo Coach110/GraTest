@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/World/scena3.unity
     guid: 52f926869b861294cb0df2ea38732c33
+  - enabled: 1
+    path: Assets/World/Hub.unity
+    guid: a6f99fadfb3b2914493a999c7eda6d8f
   m_configObjects: {}
