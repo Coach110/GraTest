@@ -35,10 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levele/MovementTEST.unity
     guid: 7fab776ae557b02449a6073283de0d82
-  - enabled: 1
-    path: Assets/Scenes/Levele/Level_1.unity
-    guid: 34ae2694d0394af45919ba64bc4205f6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Levele/Dom.unity
     guid: 40ddf5ff4ef4d574cae9fb48fc39468a
+  - enabled: 1
+    path: Assets/Scenes/Levele/Level2.unity
+    guid: b3d030d34f416994dbe3c0b84353c2fe
+  - enabled: 1
+    path: Assets/Scenes/Levele/Drzwi.unity
+    guid: 69a66f69c87ac5d4e8f3b88106d5406e
   m_configObjects: {}

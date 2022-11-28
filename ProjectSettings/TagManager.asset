@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Enemy1Glista
   - Exit
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
