@@ -604,6 +604,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5782640574137154949, guid: 0445fce9ba6f25e49a23bd4caed1401c, type: 3}
+      propertyPath: maxSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782640574137154970, guid: 0445fce9ba6f25e49a23bd4caed1401c, type: 3}
+      propertyPath: jumpHeight
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5782640574137154971, guid: 0445fce9ba6f25e49a23bd4caed1401c, type: 3}
       propertyPath: m_Name
       value: Monkyy
@@ -719,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3363914641018254479, guid: 9037b2ded82b3c544856b40dbe020a36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.173
+      value: -0.275
       objectReference: {fileID: 0}
     - target: {fileID: 3363914641018254479, guid: 9037b2ded82b3c544856b40dbe020a36, type: 3}
       propertyPath: m_LocalPosition.y
