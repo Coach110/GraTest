@@ -10,6 +10,7 @@ TagManager:
   - Enemy1Glista
   - Exit
   - ExitDoor
+  - vcam
   layers:
   - Default
   - TransparentFX
