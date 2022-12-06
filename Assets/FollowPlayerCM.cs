@@ -11,5 +11,6 @@ public class FollowPlayerCM : MonoBehaviour
     {
         var vcam = GetComponent<CinemachineVirtualCamera>();
         vcam.Follow = GameObject.FindGameObjectWithTag("Player").transform;
+        
     }
 }
